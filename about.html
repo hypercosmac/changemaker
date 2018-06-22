@@ -41,9 +41,8 @@
         <li><a href="2018.html">Challenge 2018</a></li>
         <li><a href="2017.html">Challenge 2017</a></li>
         <li><a href="ideas.html">Ideas</a></li>
-        <li><a href="tools.html">Tools</a></li>
         <!-- Dropdown Trigger -->
-        <li> <a class='dropdown-trigger' href='#' data-target='dropdown1'>Drop Me!</a></li>
+        <li> <a class='dropdown-trigger' href='#' data-target='dropdown1'>Tools</a></li>
       </ul>
     </div>
   </nav>
@@ -57,7 +56,7 @@
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       var elems = document.querySelectorAll('.dropdown-trigger');
-      var instances = M.Dropdown.init(elems, hover:true);
+      var instances = M.Dropdown.init(elems, {hover : true});
     });
   </script>
 </body>
